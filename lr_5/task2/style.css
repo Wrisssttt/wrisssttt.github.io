@@ -1,0 +1,29 @@
+.main{
+	position: relative;
+	margin: 30px;
+	height: 80px;
+	width: 100px;
+	background: skyblue;
+}
+.clouds{
+	position: absolute;
+	right: 2px;
+	top: -20px;
+}
+.water{
+	position: absolute;
+	bottom: -50px;
+	z-index: 10;
+	
+}
+.ship{
+	z-index: 5;
+	position: absolute;
+	bottom: 2px;
+	left: 3px;
+}
+.world{
+	position: absolute;
+	bottom: -24px;
+
+}	

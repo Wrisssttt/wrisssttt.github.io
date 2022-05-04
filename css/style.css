@@ -232,8 +232,12 @@
  }
 .list-container p{
    font-size: 16px;
-    line-height: 20px;
-    color: #808080;
+   line-height: 20px;
+   color: #808080;
+}
+.start-new-list{
+	list-style-type: none;
+
 }
 /*PORTFOLIO*/
 .portfolio-container h2{

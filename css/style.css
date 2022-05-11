@@ -47,7 +47,6 @@
 /* main content */
 .main-content {
 	padding-top: 120px;
-	height: 1350px;
 	padding-right: 95px;
 }
 .developer {
@@ -117,7 +116,7 @@
 .sidebar {
 	margin-right: 88px;
 	width: 370px;
-	height: 1470px;
+	height: 100%px;
 	background: thistle;
 }
 /* Photo thistle*/

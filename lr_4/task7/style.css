@@ -1,4 +1,4 @@
-.main_div{
+.main_box{
 	position: relative;
 	border: 5px solid black;
 	margin: 10px;
@@ -6,7 +6,7 @@
 	height: 50px;
 	z-index: 0;
 }
-.main_div::after{
+.main_box::after{
 	top: 15px;
 	background-color: black;
 	content: "";
@@ -16,8 +16,8 @@
 	width: 7px;
 	left: 155px;
 }
-/*CHILD*/
-#child_red{
+.red::before{
+	content: "";
 	position: absolute;
 	background-color: red;
 	height: 100%;
@@ -26,7 +26,8 @@
 	top:0;
 	left: 0;
 }
-#child_yellow{
+.yellow::before{
+	content: "";
 	position: absolute;
 	background-color: yellow;
 	height: 100%;
@@ -35,7 +36,8 @@
 	top:0;
 	left: 0;
 }
-#child_green{
+.green::before{
+	content: "";
 	position: absolute;
 	background-color: green;
 	height: 100%;

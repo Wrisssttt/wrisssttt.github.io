@@ -23,26 +23,19 @@ a{
 	margin-right: auto;
 
 }
-
-.instagram{
-	background: url(bg.png) 0 -255px ;
-	background-repeat: no-repeat;
-	background-size: 600px 510px;
-}
-.osu{
+.icon{
 	background: url(bg.png);
 	background-repeat: no-repeat;
 	background-size: 600px 510px;
 }
+.instagram{
+	background-position: 0 -255px ;
+}
 .spotify{
-	background: url(bg.png) -300px -255px;
-	background-repeat: no-repeat;
-	background-size: 600px 510px;
+	background-position:-300px -255px;
 }
 .steam{
-	background: url(bg.png) -300px 0;
-	background-repeat: no-repeat;
-	background-size: 600px 510px;
+	background-position: -300px 0;
 }
 a:hover{
 	background-color: lightgrey;

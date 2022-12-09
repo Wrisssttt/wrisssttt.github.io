@@ -1,0 +1,33 @@
+
+
+.main{
+				
+    margin: 50px  150px;
+
+}
+li{	
+margin-right: 20px;	
+margin-bottom: 20px;
+list-style-type: none;
+display: inline-block;
+width: 150px;
+height: 50px;
+border-radius: 2px;
+}
+
+a{
+border-radius: 10px;
+box-shadow: 10px 10px 20px thistle;
+background-color: yellowgreen;
+text-decoration: none;
+display: block;
+color:  black;
+line-height: 4em;
+font-weight: bold;
+text-align: center;
+}
+
+a:hover{
+color: yellow;
+background-color: black;	
+}

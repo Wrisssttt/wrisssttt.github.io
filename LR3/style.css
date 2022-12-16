@@ -1,0 +1,47 @@
+.main{
+				
+    margin: 50px  150px;
+
+}
+li{	
+margin-right: 20px;	
+margin-bottom: 20px;
+list-style-type: none;
+display: inline-block;
+width: 150px;
+height: 50px;
+border-radius: 2px;
+}
+
+ul{
+    margin-top: 50px;
+    display: block;
+    width: 600px;
+}
+h2{
+    box-shadow: 10px 10px 20px thistle;
+    font-size: medium;
+    display: block;
+    width:150px;
+    height: 25px;
+    border-radius: 6%;
+    border: 3px solid gray;
+    text-align: center;
+}
+
+a{
+border-radius: 10px;
+box-shadow: 10px 10px 20px thistle;
+background-color: yellowgreen;
+text-decoration: none;
+display: block;
+color:  black;
+line-height: 4em;
+font-weight: bold;
+text-align: center;
+}
+
+a:hover{
+color: yellow;
+background-color: black;	
+}
